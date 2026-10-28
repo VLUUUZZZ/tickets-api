@@ -38,19 +38,15 @@ src/main/java/com/example/tickets
 
 ## Getting Started
 
-The project lives in the `tickets-api/` folder.
-
 **With MySQL** (default): requires MySQL running on `localhost:3306` with user `root` / password `root`. The `tickets_db` database is created automatically.
 
 ```bash
-cd tickets-api
 mvn spring-boot:run
 ```
 
 **With H2** (no database setup needed):
 
 ```bash
-cd tickets-api
 mvn spring-boot:run -Dspring-boot.run.profiles=h2
 ```
 
